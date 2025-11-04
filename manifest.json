@@ -1,0 +1,20 @@
+{
+  "name": "HeartScript Love Letter",
+  "short_name": "HeartScript",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#fff5f7",
+  "theme_color": "#ff6b8b",
+  "icons": [
+    {
+      "src": "https://via.placeholder.com/192?text=Heart",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://via.placeholder.com/512?text=Heart",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
