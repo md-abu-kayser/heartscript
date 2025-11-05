@@ -1,5 +1,6 @@
-// HeartScript Love Letter JS (Fixed)
-// Utility: Debounce
+// HeartScript Love Letter JS:
+// ------------------------------------------------------------->
+// Debounce
 function debounce(func, delay) {
   let timeout;
   return function (...args) {
@@ -8,7 +9,7 @@ function debounce(func, delay) {
   };
 }
 
-// Utility: Throttle
+// Throttle
 function throttle(func, limit) {
   let inThrottle;
   return function (...args) {
@@ -20,7 +21,7 @@ function throttle(func, limit) {
   };
 }
 
-// Class: ValentineConfession
+// ValentineConfession
 class ValentineConfession {
   constructor() {
     this.toggle = document.getElementById("messageToggle");
@@ -341,3 +342,5 @@ class AccessibilityAuditor {
     }
   }
 }
+
+// ------------------------------------------------------------------------------end

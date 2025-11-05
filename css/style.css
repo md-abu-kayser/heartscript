@@ -1,4 +1,7 @@
-/* Root Variables (Expanded) */
+/* CSS Style Sheet */
+/* ------------------------------------------------------------------------------------------ */
+
+/* Root Variables */
 :root {
   --primary-color: #ff6b8b;
   --secondary-color: #ffa7ba;
@@ -11,7 +14,7 @@
   --transition-slow: all 1s ease-in-out;
 }
 
-/* Theme Overrides (Fixed for full application) */
+/* Theme Overrides */
 [data-theme="valentine"] {
   --primary: var(--primary-color);
   --secondary: var(--secondary-color);
@@ -20,11 +23,7 @@
   --base-content: var(--text-light);
 }
 [data-theme="valentine"] body {
-  background: linear-gradient(
-    to bottom right,
-    #fdf2f8,
-    #fce7f3
-  ); /* Valentine gradient */
+  background: linear-gradient(to bottom right, #fdf2f8, #fce7f3);
 }
 
 [data-theme="light"] {
@@ -35,11 +34,7 @@
   --base-content: var(--text-light);
 }
 [data-theme="light"] body {
-  background: linear-gradient(
-    to bottom right,
-    #f9fafb,
-    #f3f4f6
-  ); /* Light gradient */
+  background: linear-gradient(to bottom right, #f9fafb, #f3f4f6);
 }
 
 [data-theme="dark"] {
@@ -50,11 +45,7 @@
   --base-content: var(--text-dark);
 }
 [data-theme="dark"] body {
-  background: linear-gradient(
-    to bottom right,
-    #111827,
-    #1f2937
-  ); /* Dark gradient */
+  background: linear-gradient(to bottom right, #111827, #1f2937);
 }
 
 /* Global Resets */
@@ -65,7 +56,7 @@
   scroll-behavior: smooth;
 }
 
-/* Body (Theme-aware background fixed) */
+/* Body */
 body {
   font-family: "Quicksand", sans-serif;
   min-height: 100vh;
@@ -78,7 +69,7 @@ body {
   transition: background 0.7s ease;
 }
 
-/* Instruction Animation */
+/* Animation */
 @keyframes fadeInOut {
   0%,
   100% {
@@ -121,7 +112,7 @@ body {
   }
 }
 
-/* Message Card (Slow transition) */
+/* Message Card */
 .message-card {
   transition: var(--transition-slow);
 }
@@ -132,14 +123,14 @@ body {
   padding: clamp(1rem, 5vw, 2.5rem) !important;
 }
 
-/* Heart Movement (Fixed bottom position for whitespace) */
+/* Heart Movement */
 .heart-toggle.moved {
   top: auto !important;
-  bottom: 8rem !important; /* Ensures bottom whitespace */
+  bottom: 3.5rem !important;
   transform: translate(-50%, 0) !important;
 }
 
-/* Background Transition */
+/* Bg Transition */
 .interactive-container.active {
   background-color: var(--secondary) !important;
   transition: var(--transition-slow);
@@ -212,7 +203,7 @@ body {
   }
 }
 
-/* Responsive Queries (Enhanced for all devices) */
+/* Responsive @media Queries */
 @media (max-width: 480px) {
   .heart {
     width: 50px !important;
@@ -233,7 +224,7 @@ body {
   }
   .valentine-container {
     padding-bottom: 6rem !important;
-  } /* Extra bottom space on xs */
+  }
 }
 
 @media (min-width: 481px) and (max-width: 640px) {
@@ -329,7 +320,7 @@ body {
   }
 }
 
-/* Additional Keyframes */
+/* Keyframes */
 @keyframes confettiFall {
   0% {
     transform: translateY(0) rotate(0deg);
@@ -372,7 +363,7 @@ body {
   font-family: "Dancing Script", cursive;
 }
 
-/* Hover/Focus */
+/* Hover and Focus */
 .heart-toggle:hover .heart-svg {
   fill: var(--accent);
   transform: scale(1.15);
@@ -411,7 +402,7 @@ body {
   }
 }
 
-/* Contrast/Color Scheme */
+/* Contrast and Color Scheme */
 @media (prefers-contrast: more) {
   body {
     background: white !important;
@@ -439,3 +430,5 @@ body {
     min-height: 3rem;
   }
 }
+
+/* ------------------------------------end------------------------------------ */
