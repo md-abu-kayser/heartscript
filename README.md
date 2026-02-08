@@ -30,14 +30,14 @@ Tiny, dependency-free progressive web app that renders playful, animated "love l
 1. **github page:**
 
 ```
-https://md-abu-kayser.github.io/HeartScript-Love-Letter/
+https://md-abu-kayser.github.io/heartscript/
 
 ```
 
 2. **git repo clone:**
 
 ```
-git clone https://github.com/md-abu-kayser/HeartScript-Love-Letter.git
+git clone https://github.com/md-abu-kayser/heartscript.git
 
 ```
 
@@ -112,14 +112,13 @@ If you want to add automated deployment, consider adding a GitHub Actions workfl
 
 ---
 
-### Contact and Maintainer
+### Contact & Maintainer
 
-**Maintainer:** [md-abu-kayser](https://github.com/md-abu-kayser)  
-**Name:** Md Abu Kayser - Full-Stack Engineer
-
+- **Project:** _heartscript_
+- **Name:** Md Abu Kayser - Full-Stack Engineer
+- **Maintainer:** [md-abu-kayser](https://github.com/md-abu-kayser)
 - **GitHub:** [github.com/abu.kayser-official](https://github.com/md-abu-kayser)
 - **Email:** [abu.kayser.official@gmail.com](mailto:abu.kayser.official@gmail.com)
-- **Project:** _HeartScript-Love-Letter_
 
 ---
 
