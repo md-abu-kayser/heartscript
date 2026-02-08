@@ -1,5 +1,5 @@
 // HeartScript Love Letter JS:
-// ------------------------------------------------------------->
+// ------------------------------------------------------->
 // Debounce
 function debounce(func, delay) {
   let timeout;
@@ -53,7 +53,7 @@ class ValentineConfession {
     this.createBackgroundParticles();
     window.addEventListener(
       "resize",
-      throttle(this.handleResize.bind(this), 200)
+      throttle(this.handleResize.bind(this), 200),
     );
   }
 
@@ -74,7 +74,7 @@ class ValentineConfession {
       this.messageCard.classList.add(
         "open",
         "animate-fadeIn",
-        "animate-slideIn"
+        "animate-slideIn",
       );
       this.container.classList.add("active");
     }, 400);
@@ -89,7 +89,7 @@ class ValentineConfession {
     this.messageCard.classList.remove(
       "open",
       "animate-fadeIn",
-      "animate-slideIn"
+      "animate-slideIn",
     );
     this.messageCard.classList.add("animate-fadeOut", "animate-slideOut");
     this.container.classList.remove("active");
@@ -123,7 +123,7 @@ class ValentineConfession {
             opacity: 0,
           },
         ],
-        { duration, easing: "ease-out" }
+        { duration, easing: "ease-out" },
       );
       animation.onfinish = () => confetti.remove();
     }
@@ -132,8 +132,9 @@ class ValentineConfession {
   playHeartSound() {
     try {
       if (!this.audioContext) {
-        this.audioContext = new (window.AudioContext ||
-          window.webkitAudioContext)();
+        this.audioContext = new (
+          window.AudioContext || window.webkitAudioContext
+        )();
       }
       this.playTone(523.25, 0.6);
       setTimeout(() => this.playTone(659.25, 0.4), 200);
@@ -151,7 +152,7 @@ class ValentineConfession {
     gainNode.gain.value = 0.25;
     gainNode.gain.exponentialRampToValueAtTime(
       0.01,
-      this.audioContext.currentTime + duration
+      this.audioContext.currentTime + duration,
     );
     oscillator.start();
     oscillator.stop(this.audioContext.currentTime + duration);
@@ -220,7 +221,7 @@ class ValentineConfession {
   personalizeMessage() {
     const newRecipient = prompt(
       "Enter the recipient's name:",
-      this.recipientName.textContent
+      this.recipientName.textContent,
     )?.trim();
     if (newRecipient) {
       this.recipientName.textContent = newRecipient;
@@ -228,7 +229,7 @@ class ValentineConfession {
     }
     const newPara1 = prompt(
       "Edit first paragraph:",
-      this.messagePara1.textContent
+      this.messagePara1.textContent,
     )?.trim();
     if (newPara1) {
       this.messagePara1.textContent = newPara1;
@@ -236,7 +237,7 @@ class ValentineConfession {
     }
     const newPara2 = prompt(
       "Edit second paragraph:",
-      this.messagePara2.textContent
+      this.messagePara2.textContent,
     )?.trim();
     if (newPara2) {
       this.messagePara2.textContent = newPara2;
@@ -244,7 +245,7 @@ class ValentineConfession {
     }
     const newSender = prompt(
       "Enter your name/signature:",
-      this.senderName.textContent
+      this.senderName.textContent,
     )?.trim();
     if (newSender) {
       this.senderName.textContent = newSender;
@@ -282,10 +283,10 @@ class ValentineConfession {
 
 // Globals
 window.personalizeMessage = withErrorHandling(() =>
-  document.valentineInstance.personalizeMessage()
+  document.valentineInstance.personalizeMessage(),
 );
 window.resetSettings = withErrorHandling(() =>
-  document.valentineInstance.resetSettings()
+  document.valentineInstance.resetSettings(),
 );
 
 // Init
