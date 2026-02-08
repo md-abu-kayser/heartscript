@@ -1,6 +1,8 @@
-# HeartScript - Love Letter
+# HeartScript - Interactive Love Letter PWA
 
-HeartScript is a small, elegant, and fast static web experience that lets visitors send playful, animated "love letters" rendered as interactive heart visuals. Built as a single-page, progressive web app (PWA) with minimal assets and an optional service worker for offline access, it ships a delightful front-end demo suitable for portfolios, landing pages, and small campaigns.
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE) [![Demo](https://img.shields.io/badge/demo-GitHub%20Pages-brightgreen)](https://md-abu-kayser.github.io/heartscript/)
+
+Tiny, dependency-free progressive web app that renders playful, animated "love letters" as interactive heart visuals. Perfect for portfolios, landing pages, and small campaigns - mobile-first, accessible, and easy to customize.
 
 ## Table of contents
 
