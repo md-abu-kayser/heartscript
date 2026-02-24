@@ -23,6 +23,11 @@
 [![Font Awesome](https://img.shields.io/badge/Font_Awesome-528DD7?logo=fontawesome\&logoColor=white)](https://fontawesome.com/)
 [![Heroicons](https://img.shields.io/badge/Heroicons-0EA5E9?logo=heroicons\&logoColor=white)](https://heroicons.com/)
 
+<!-- Languages & Web Standards -->
+
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript\&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![ECMAScript Spec](https://img.shields.io/badge/ECMAScript-262-7A0BC0?logo=ecmascript\&logoColor=white)](https://www.ecma-international.org/publications-and-standards/standards/ecma-262/)
+
 Tiny, dependency-free progressive web app that renders playful, animated "love letters" as interactive heart visuals. Perfect for portfolios, landing pages, and small campaigns - mobile-first, accessible, and easy to customize.
 
 ## Table of contents
