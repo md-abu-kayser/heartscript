@@ -1,7 +1,14 @@
 # HeartScript - Interactive Love Letter PWA
 
+<!-- MIT License -->
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
 [![Demo](https://img.shields.io/badge/demo-GitHub%20Pages-brightgreen)](https://md-abu-kayser.github.io/heartscript/)
+
+<!-- HTML & CSS -->
+
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5\&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3\&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
 Tiny, dependency-free progressive web app that renders playful, animated "love letters" as interactive heart visuals. Perfect for portfolios, landing pages, and small campaigns - mobile-first, accessible, and easy to customize.
 
